@@ -5,13 +5,13 @@ BSIT-3C
 ---
 
 # Project Description
-A Personal website where I introduce myself
+ This project is a simple personal website developed using HTML and CSS. It serves as an introduction to who I am, showcasing my educational background, skills, interests, some of my contact information, as well as my career goals & objectives.
+
 
 ---
 
 # Features of the website
-You can see my personal info, also my hobbies and interest,
-You can also click the accounts and contacts posted there and it will automatically open the platform designated for that account or contact 
+Personal Profile - Career Goals & Objectives - Educational Background - Skills - Hobbies and Interests - Contact Information
 
 ---
 
