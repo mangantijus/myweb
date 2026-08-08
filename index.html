@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Rey A. Manganti | myweb</title>
+    <style>
+        :root {
+        
+
+            --bg-color: #0d0d11;
+           --card-bg: rgba(22, 22, 30, 0.85);
+            --text-color: #f8f9fa;
+            --text-muted: #adb5bd;
+             --accent-color: #e0aaff;
+            --border-color: rgba(157, 78, 221, 0.3);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+
+        /* Black Cat SVG Decoration */
+        .cat-decoration {
+            position: absolute;
+            top: -50px;
+            right: 40px;
+            width: 90px;
+            height: 90px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent-color);
+            background-color: #ddd;
+        }
+
+        .header-text h1 {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 5px;
+        }
+
+        .header-text .intro {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-color);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .goal-box {
+            background-color: var(--bg-color);
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+
+        .contact-list li {
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .contact-list a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-list a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .cat-decoration {
+                right: 20px;
+                top: -40px;
+                width: 70px;
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Black Cat Vector Design -->
+        <svg class="cat-decoration" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Cat Head -->
+            <path d="M 20 80 Q 20 40 50 40 Q 80 40 80 80 Z" fill="#111111"/>
+            <!-- Left Ear -->
+            <polygon points="25,48 15,20 40,38" fill="#111111"/>
+            <polygon points="27,45 20,25 37,38" fill="#ffb6c1"/>
+            <!-- Right Ear -->
+            <polygon points="75,48 85,20 60,38" fill="#111111"/>
+            <polygon points="73,45 80,25 63,38" fill="#ffb6c1"/>
+            <!-- Left Eye -->
+            <ellipse cx="38" cy="55" rx="5" ry="8" fill="#ffd700"/>
+            <ellipse cx="38" cy="55" rx="1.5" ry="6" fill="#111111"/>
+            <!-- Right Eye -->
+            <ellipse cx="62" cy="55" rx="5" ry="8" fill="#ffd700"/>
+            <ellipse cx="62" cy="55" rx="1.5" ry="6" fill="#111111"/>
+            <!-- Nose & Whiskers -->
+            <polygon points="50,64 47,61 53,61" fill="#ffb6c1"/>
+            <path d="M 30 63 L 10 60 M 30 66 L 12 68 M 70 63 L 90 60 M 70 66 L 88 68" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+
+        <header>
+            
+            <img src="akoyan.jpg" alt="pics" class="profile-pic">
+            <div class="header-text">
+                <h1>Justin Rey A. Manganti</h1>
+                <p class="intro">Hii i'm Justin, you can call me Rey or Tintin, i lived in Barangay Duquit,Mabalacat City,<br>
+                Pampanga and i like the dark shade of violet/purple combined or paired with black
+                   just because i think its cool. </p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Career Goals & Objectives</h2>
+            <div class="goal-box">
+                “I want to have a job that I enjoy so much that I never wanna take a day off.”
+"
+            </div>
+        </section>
+
+         <section>
+            <h2>Educational Background</h2>
+            <div class="goal-box">
+                  <b>TIRTIARY LEVEL</b>
+            
+            <div class="tags">
+                <span class="tag"><b>2024-Present</b></span>
+            </div>
+               <div class="tags">
+                <span class="tag">Bachelor of Science  In Information Technology<br>
+                       Mabalacat City College<br>
+                       Dolores, Mabalacat City, Pampanga, Philippines 2010<br></span>
+            </div>      
+            </div>
+
+            <div class="goal-box">
+               <b>SECONDARY LEVEL</b>
+            
+            <div class="tags">
+                <span class="tag"><b>2021-2024</b></span>
+            </div>
+               <div class="tags">
+                <span class="tag"><b>SENIOR HIGHSCHOOL</b>-Information and Communication Technology<br>
+                       Mabalacat National Senior HighSchool<br>
+                       Dau, Mabalacat City, Pampanga, Philippines 2010<br></span>
+
+            </div>     
+              <div class="tags">
+                <span class="tag"><b>2017-2021</b></span>
+            </div>
+            
+               <div class="tags">
+                <span class="tag"><b>JUNIOR HIGHSCHOOL</b><br>
+                       Duquit High School<br>
+                       Duquit, Mabalacat City, Pampanga, Philippines 2010<br></span>
+
+            </div>     
+            </div>
+            
+            
+            <div class="goal-box">
+                <b>PRIMARY LEVEL</b>
+            
+            <div class="tags">
+                <span class="tag"><b>2010-2017</b></span>
+            </div>
+               <div class="tags">
+                <span class="tag">
+                       Dau Homesite Elementary School<br>
+                       Dau Homesite, Mabalacat City, Pampanga, Philippines 2010<br></span>
+            </div>      
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="tags">
+                <span class="tag">Hardworking</span>
+                <span class="tag">Time Management Skills</span>
+                <span class="tag">Working Under Pressure</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Hobbies & Interests</h2>
+            <div class="tags">
+                <span class="tag">🎮 Playing Online Games</span>
+                <span class="tag">🎬 Watching Movies</span>
+                <span class="tag">📖 Reading Manga</span>
+            </div>
+        </section>
+
+        
+
+        <section>
+            <h2>Contact Information</h2>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:mangantijus@gmail.com">mangantijus@gmail.com</a></li>
+                <li><strong>Instagram:</strong> <a href="https://instagram.com/jus_mangs" target="_blank">@jus_mangs</a></li>
+                <li><strong>Cellphone No:</strong> <a href="tel:+639674267173 ">09674267173</a></li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
