@@ -25,3 +25,11 @@ https://mangantijus.github.io/myweb/
 
 ---
 
+# GitHub Repository Link
+https://github.com/mangantijus/myweb.git
+
+---
+
+# Screenshot of the Website
+![Alt text](webpic1.png)
+
